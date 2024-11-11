@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#000000">
+    <title>Kratki Metar</title>
+    
+    <link rel="stylesheet" href="https://use.typekit.net/qzj8jzj.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" as="image" href="./assets/Home.jpg">
+</head>
+<body>
+    <div class="parallax-bg"></div>
+
+    <nav class="navbar">
+        <div class="brand">
+            <a href="#home">
+                <img src="./assets/logo.png" alt="Kratki Metar">
+            </a>
+        </div>
+        
+        <div class="menu-toggle">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="section-content">
+            <div class="hero-text">
+                <h1>KRATKI<span class="highlight">METAR</span></h1>
+                <p>Passion for short movies!</p>
+                <button class="learn-more-btn">LEARN MORE</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>ABOUT US</h2>
+            <p>We, at production 'Kratki metar' are dedicated to creating unique and engaging short films.
+            Our vision is to create a growing community of film enthusiasts and creators.
+            Our mission is to provide our audience with simple yet creative and innovative perspective of short movies.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-content">
+            <div class="projects-grid">
+                <div class="project-item">
+                    <img src="path/to/editing-image.jpg" alt="Film Editing">
+                </div>
+                
+                <div class="project-item featured">
+                    <img src="path/to/filming-image.jpg" alt="Youth Film">
+                </div>
+                
+                <div class="project-item">
+                    <img src="path/to/camera-image.jpg" alt="Camera Work">
+                </div>
+            </div>
+            
+            <div class="project-content">
+                <h2>YOUTH FILM</h2>
+                <p>The project aims to develop filmmaking skills, foster a creative community, and showcase young talent through film festivals. By nurturing the next generation of filmmakers, the initiative seeks to bring fresh, diverse perspectives to the film industry.</p>
+                <a href="#" class="view-project">VIEW PROJECT</a>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://instagram.com/your-handle" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-info">
+            <h2>CONTACT</h2>
+            <p>We'd love to hear from you! Whether you have questions, feedback, or simply want to learn more about our project, please don't hesitate to get in touch.</p>
+            
+            <div class="contact-details">
+                <h3>E-MAIL</h3>
+                <a href="mailto:kratki.metar@gmail.com">kratki.metar@gmail.com</a>
+                
+                <h3>SOCIALS</h3>
+                <a href="https://instagram.com/kratki.metar_official">@kratki.metar_official</a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>CONTACT FORM</h2>
+            <div class="form-container">
+                <!-- Initial Form -->
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" name="name" id="name" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" name="email" id="email" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea name="message" id="message" class="form-input" maxlength="500" required></textarea>
+                        <div class="char-counter">0/500</div>
+                    </div>
+
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+
+                <!-- Thank You Message -->
+                <div id="thank-you-message" class="thank-you-message">
+                    <h3>Thank you for your feedback!</h3>
+                    <p>We appreciate you contacting us. We will get back to you soon!</p>
+                    <button class="another-message-btn">Send Another Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="contact-form.js"></script>
+</body>
+</html>
